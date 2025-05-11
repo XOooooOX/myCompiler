@@ -1,0 +1,12 @@
+# ninja log v5
+3	47	7686724902841257	CMakeFiles/myCompiler.dir/codegen.c.obj	cbbc0ad11a2676bd
+0	236	7686744499071897	build.ninja	c12c1aa8009b63f9
+57	111	7683113850135552	liblibrary.c.a	6bb81f8ecb2a5554
+1	55	7686724902911247	CMakeFiles/myCompiler.dir/parser.c.obj	e4d88a37ed092114
+55	102	7683116081475659	libmyCompiler.a	4ea0fbdc6f77b1d6
+1	56	7683113849585526	CMakeFiles/library.c.dir/lexer.c.obj	e38b9b9d474838af
+0	46	7683116080915642	CMakeFiles/myCompiler.dir/library.c.obj	e9c8aafdd71e6b70
+1	54	7686738805055852	CMakeFiles/myCompiler.dir/lexer.c.obj	416f0cbd03a1b35a
+48	104	7686742145711841	myCompiler.exe	31dc0f3ecad566d2
+1	48	7686742145176389	CMakeFiles/myCompiler.dir/main.c.obj	dab980145e4d5697
+2	62	7686744671838677	myCompiler.exe	31dc0f3ecad566d2
