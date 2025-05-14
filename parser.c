@@ -10,6 +10,15 @@
 #include <string.h>
 #include <stdio.h>
 
+typedef struct LVar {
+    struct LVar *next;
+    char *name;
+    int len;
+    int offset;
+} LVar;
+
+LVar *locals = NULL;
+
 extern Token *token; // توکن فعلی (از lexer گرفته می‌شه)
 
 // توابع کمکی

@@ -12,7 +12,9 @@ typedef enum {
     ND_SUB, // -
     ND_MUL, // *
     ND_DIV, // /
-    ND_NUM  // عدد
+    ND_NUM,  // عدد
+    ND_LVAR, // متغیر محلی
+    ND_ASSIGN // انتساب
 } NodeKind;
 
 typedef struct Node Node;
@@ -22,6 +24,7 @@ struct Node {
     Node *lhs;
     Node *rhs;
     int val; // فقط برای ND_NUM
+    int offset; // offset az rbp baraye nd_lvar
 };
 
 Node *expr(void);
